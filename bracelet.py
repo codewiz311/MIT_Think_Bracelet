@@ -5,7 +5,7 @@ import picamera, serial, time
 # Define GPIO pin numbers
 leds_pin = 17
 gps_pin = 15
-motor_pin = 29
+motor_pin = 21
 
 # Initialize LEDs and Motor
 leds = LED(leds_pin)
